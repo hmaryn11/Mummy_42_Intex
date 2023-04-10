@@ -8840,19 +8840,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Maryn\\.nuget\\packages\\": {}
+    "C:\\Users\\michaelgoltra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
+      "projectUniqueName": "C:\\Users\\michaelgoltra\\Source\\Repos\\Mummy_42_Intex\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
       "projectName": "Mummy_42_Intex",
-      "projectPath": "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
-      "packagesPath": "C:\\Users\\Maryn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\obj\\",
+      "projectPath": "C:\\Users\\michaelgoltra\\Source\\Repos\\Mummy_42_Intex\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
+      "packagesPath": "C:\\Users\\michaelgoltra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\michaelgoltra\\Source\\Repos\\Mummy_42_Intex\\Mummy_42_Intex\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Maryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\michaelgoltra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
