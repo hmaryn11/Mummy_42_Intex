@@ -42,7 +42,7 @@ namespace Mummy_42_Intex
             services.AddScoped<IMummyRepository, EFMummyRepository>();
 
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-            //    .AddEntityFrameworkStores<ApplicationDbContext>();
+            //    .AddEntityFrameworkStores<ArtifactContext>();
 
             services.AddRazorPages();
 

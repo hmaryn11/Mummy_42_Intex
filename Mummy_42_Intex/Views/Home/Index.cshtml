@@ -1,11 +1,9 @@
 ﻿
 @{
-    ViewBag.Calc = 20 / 5;
 }
 
 @model MummyViewModel
 
-<h1>@ViewBag.Calc</h1>
 <h1>Mummy Dummy</h1>
 
 @foreach (Artifacts a in Model.Artifacts)
@@ -22,4 +20,4 @@
     <br />
 }
 
-<div pagination="@Model.PageInfo"></div>
+<div page-next="@Model.PageInfo" page-action="Index"></div>

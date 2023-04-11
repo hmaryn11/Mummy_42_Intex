@@ -20,6 +20,7 @@ namespace Mummy_42_Intex.Data
         }
 
         public DbSet<Artifacts> Artifacts { get; set; }
+        //public DbSet<Credentials> Credentials { get; set; }
         protected override void OnModelCreating(ModelBuilder mb) //seeding the db
         {
             mb.Entity<Artifacts>().HasData(
@@ -103,6 +104,12 @@ namespace Mummy_42_Intex.Data
                     CurrentLocation = "Spain",
                     StorageLocation = "Chicago"
                 });
+            //mb.Entity<Credentials>().HasData(
+            //    new Credentials
+            //    {
+            //        UserId = 1,
+            //        IdentityUser = 1
+            //    });
         }
     }
 }

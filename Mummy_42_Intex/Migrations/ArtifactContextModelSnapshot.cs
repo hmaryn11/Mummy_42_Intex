@@ -125,6 +125,27 @@ namespace Mummy_42_Intex.Migrations
                             StorageLocation = "Chicago"
                         });
                 });
+
+            modelBuilder.Entity("Mummy_42_Intex.Models.Credentials", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("IdentityUser")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Credentials");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            IdentityUser = "1"
+                        });
+                });
 #pragma warning restore 612, 618
         }
     }

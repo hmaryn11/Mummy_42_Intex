@@ -14,6 +14,6 @@ namespace Mummy_42_Intex.Models.ViewModels
         public int CurrentPage { get; set; }
 
         //figure out how many pages you need
-        public int TotalPages => (int) Math.Ceiling((double) TotalNumBurials / BurrialsPerPage);
+        public int TotalPages => (int) Math.Ceiling((double) TotalNumBurials / BurialsPerPage);
     }
 }

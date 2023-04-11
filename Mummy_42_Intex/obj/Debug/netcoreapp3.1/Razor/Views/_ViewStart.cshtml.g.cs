@@ -13,14 +13,21 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 2 "C:\Users\Maryn\Source\Repos\Mummy_42_Intex2\Mummy_42_Intex\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Maryn\Source\Repos\Mummy_42_Intex2\Mummy_42_Intex\Views\_ViewImports.cshtml"
 using Mummy_42_Intex.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Maryn\Source\Repos\Mummy_42_Intex2\Mummy_42_Intex\Views\_ViewImports.cshtml"
+using Mummy_42_Intex.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"20e52ef2d1b906ccc42bad564c5f5c736e934eba", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"541b22e5078b1aeaf640cb3da21d5aff97606ec4", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

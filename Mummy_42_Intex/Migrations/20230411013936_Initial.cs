@@ -24,6 +24,19 @@ namespace Mummy_42_Intex.Migrations
                     table.PrimaryKey("PK_Artifacts", x => x.ArtifactId);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Credentials",
+                columns: table => new
+                {
+                    UserId = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    IdentityUser = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Credentials", x => x.UserId);
+                });
+
             migrationBuilder.InsertData(
                 table: "Artifacts",
                 columns: new[] { "ArtifactId", "CurrentLocation", "Date", "Description", "Dimensions", "Material", "StorageLocation" },
@@ -63,12 +76,20 @@ namespace Mummy_42_Intex.Migrations
                 table: "Artifacts",
                 columns: new[] { "ArtifactId", "CurrentLocation", "Date", "Description", "Dimensions", "Material", "StorageLocation" },
                 values: new object[] { 8, "Spain", "2022-04-30", "Small and fluffy", "8 in", "Cotton", "Chicago" });
+
+            migrationBuilder.InsertData(
+                table: "Credentials",
+                columns: new[] { "UserId", "IdentityUser" },
+                values: new object[] { 1, "1" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Artifacts");
+
+            migrationBuilder.DropTable(
+                name: "Credentials");
         }
     }
 }

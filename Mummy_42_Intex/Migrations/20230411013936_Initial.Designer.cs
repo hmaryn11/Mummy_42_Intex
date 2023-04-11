@@ -8,7 +8,7 @@ using Mummy_42_Intex.Data;
 namespace Mummy_42_Intex.Migrations
 {
     [DbContext(typeof(ArtifactContext))]
-    [Migration("20230410234548_Initial")]
+    [Migration("20230411013936_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -125,6 +125,27 @@ namespace Mummy_42_Intex.Migrations
                             Dimensions = "8 in",
                             Material = "Cotton",
                             StorageLocation = "Chicago"
+                        });
+                });
+
+            modelBuilder.Entity("Mummy_42_Intex.Models.Credentials", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("IdentityUser")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Credentials");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            IdentityUser = "1"
                         });
                 });
 #pragma warning restore 612, 618
