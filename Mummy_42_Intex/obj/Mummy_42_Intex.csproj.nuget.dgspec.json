@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\Mummy_42_Intex.csproj": {}
+    "C:\\Users\\Maryn\\Source\\Repos\\Mummy_42_Intex2\\Mummy_42_Intex\\Mummy_42_Intex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\Mummy_42_Intex.csproj": {
+    "C:\\Users\\Maryn\\Source\\Repos\\Mummy_42_Intex2\\Mummy_42_Intex\\Mummy_42_Intex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
+        "projectUniqueName": "C:\\Users\\Maryn\\Source\\Repos\\Mummy_42_Intex2\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
         "projectName": "Mummy_42_Intex",
-        "projectPath": "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
+        "projectPath": "C:\\Users\\Maryn\\Source\\Repos\\Mummy_42_Intex2\\Mummy_42_Intex\\Mummy_42_Intex.csproj",
         "packagesPath": "C:\\Users\\Maryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maryn\\source\\repos\\Mummy_42_Intex\\obj\\",
+        "outputPath": "C:\\Users\\Maryn\\Source\\Repos\\Mummy_42_Intex2\\Mummy_42_Intex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,21 @@
               "target": "Package",
               "version": "[3.1.32, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.32, )"
             },
@@ -63,6 +77,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.18, )"
             }
           },
           "imports": [

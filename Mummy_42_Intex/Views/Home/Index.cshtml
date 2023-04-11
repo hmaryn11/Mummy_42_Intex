@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Calc = 20 / 5;
+}
+
+@model MummyViewModel
+
+<h1>@ViewBag.Calc</h1>
+<h1>Mummy Dummy</h1>
+
+@foreach (Artifacts a in Model.Artifacts)
+{
+    <h3>@a.Description.</h3>
+    <ul>
+        <li>Date: @a.Date</li>
+        <li>Material: @a.Material</li>
+        <li>Dimenstions: @a.Dimensions</li>
+        <li>Current Location: @a.CurrentLocation</li>
+        <li>Storage Location: @a.StorageLocation</li>
+    </ul>
+
+    <br />
+}
+
+<div pagination="@Model.PageInfo"></div>
